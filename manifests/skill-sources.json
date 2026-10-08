@@ -1,0 +1,494 @@
+[
+  {
+    "name": "ctf-ai-ml",
+    "source": "ljagiello/ctf-skills",
+    "sourceUrl": "https://github.com/ljagiello/ctf-skills.git",
+    "skillPath": "ctf-ai-ml/SKILL.md"
+  },
+  {
+    "name": "ctf-crypto",
+    "source": "ljagiello/ctf-skills",
+    "sourceUrl": "https://github.com/ljagiello/ctf-skills.git",
+    "skillPath": "ctf-crypto/SKILL.md"
+  },
+  {
+    "name": "ctf-forensics",
+    "source": "ljagiello/ctf-skills",
+    "sourceUrl": "https://github.com/ljagiello/ctf-skills.git",
+    "skillPath": "ctf-forensics/SKILL.md"
+  },
+  {
+    "name": "ctf-malware",
+    "source": "ljagiello/ctf-skills",
+    "sourceUrl": "https://github.com/ljagiello/ctf-skills.git",
+    "skillPath": "ctf-malware/SKILL.md"
+  },
+  {
+    "name": "ctf-misc",
+    "source": "ljagiello/ctf-skills",
+    "sourceUrl": "https://github.com/ljagiello/ctf-skills.git",
+    "skillPath": "ctf-misc/SKILL.md"
+  },
+  {
+    "name": "ctf-osint",
+    "source": "ljagiello/ctf-skills",
+    "sourceUrl": "https://github.com/ljagiello/ctf-skills.git",
+    "skillPath": "ctf-osint/SKILL.md"
+  },
+  {
+    "name": "ctf-pwn",
+    "source": "ljagiello/ctf-skills",
+    "sourceUrl": "https://github.com/ljagiello/ctf-skills.git",
+    "skillPath": "ctf-pwn/SKILL.md"
+  },
+  {
+    "name": "ctf-reverse",
+    "source": "ljagiello/ctf-skills",
+    "sourceUrl": "https://github.com/ljagiello/ctf-skills.git",
+    "skillPath": "ctf-reverse/SKILL.md"
+  },
+  {
+    "name": "ctf-web",
+    "source": "ljagiello/ctf-skills",
+    "sourceUrl": "https://github.com/ljagiello/ctf-skills.git",
+    "skillPath": "ctf-web/SKILL.md"
+  },
+  {
+    "name": "ctf-writeup",
+    "source": "ljagiello/ctf-skills",
+    "sourceUrl": "https://github.com/ljagiello/ctf-skills.git",
+    "skillPath": "ctf-writeup/SKILL.md"
+  },
+  {
+    "name": "solve-challenge",
+    "source": "ljagiello/ctf-skills",
+    "sourceUrl": "https://github.com/ljagiello/ctf-skills.git",
+    "skillPath": "solve-challenge/SKILL.md"
+  },
+  {
+    "name": "find-skills",
+    "source": "vercel-labs/skills",
+    "sourceUrl": "https://github.com/vercel-labs/skills.git",
+    "skillPath": "skills/find-skills/SKILL.md"
+  },
+  {
+    "name": "algorithmic-art",
+    "source": "local-simplified-import",
+    "sourceUrl": "I:\\公众号：小谢取证-skills\\skills",
+    "skillPath": "algorithmic-art/SKILL.md"
+  },
+  {
+    "name": "anti-reversing-techniques",
+    "source": "local-simplified-import",
+    "sourceUrl": "I:\\公众号：小谢取证-skills\\skills",
+    "skillPath": "anti-reversing-techniques/SKILL.md"
+  },
+  {
+    "name": "apktool",
+    "source": "local-simplified-import",
+    "sourceUrl": "I:\\公众号：小谢取证-skills\\skills",
+    "skillPath": "apktool/SKILL.md"
+  },
+  {
+    "name": "binary-analysis-patterns",
+    "source": "local-simplified-import",
+    "sourceUrl": "I:\\公众号：小谢取证-skills\\skills",
+    "skillPath": "binary-analysis-patterns/SKILL.md"
+  },
+  {
+    "name": "brainstorming",
+    "source": "local-simplified-import",
+    "sourceUrl": "I:\\公众号：小谢取证-skills\\skills",
+    "skillPath": "brainstorming/SKILL.md"
+  },
+  {
+    "name": "brand-guidelines",
+    "source": "local-simplified-import",
+    "sourceUrl": "I:\\公众号：小谢取证-skills\\skills",
+    "skillPath": "brand-guidelines/SKILL.md"
+  },
+  {
+    "name": "canvas-design",
+    "source": "local-simplified-import",
+    "sourceUrl": "I:\\公众号：小谢取证-skills\\skills",
+    "skillPath": "canvas-design/SKILL.md"
+  },
+  {
+    "name": "claude-api",
+    "source": "local-simplified-import",
+    "sourceUrl": "I:\\公众号：小谢取证-skills\\skills",
+    "skillPath": "claude-api/SKILL.md"
+  },
+  {
+    "name": "ctf-misc-skill",
+    "source": "local-simplified-import",
+    "sourceUrl": "I:\\公众号：小谢取证-skills\\skills",
+    "skillPath": "ctf-misc-skill/SKILL.md"
+  },
+  {
+    "name": "ctf-misc-solver",
+    "source": "local-simplified-import",
+    "sourceUrl": "I:\\公众号：小谢取证-skills\\skills",
+    "skillPath": "ctf-misc-solver/SKILL.md"
+  },
+  {
+    "name": "ctf-rev",
+    "source": "local-simplified-import",
+    "sourceUrl": "I:\\公众号：小谢取证-skills\\skills",
+    "skillPath": "ctf-rev/SKILL.md"
+  },
+  {
+    "name": "ctf-web-skill",
+    "source": "local-simplified-import",
+    "sourceUrl": "I:\\公众号：小谢取证-skills\\skills",
+    "skillPath": "ctf-web-skill/SKILL.md"
+  },
+  {
+    "name": "deepfake-detection",
+    "source": "local-simplified-import",
+    "sourceUrl": "I:\\公众号：小谢取证-skills\\skills",
+    "skillPath": "deepfake-detection/SKILL.md"
+  },
+  {
+    "name": "dispatching-parallel-agents",
+    "source": "local-simplified-import",
+    "sourceUrl": "I:\\公众号：小谢取证-skills\\skills",
+    "skillPath": "dispatching-parallel-agents/SKILL.md"
+  },
+  {
+    "name": "doc-coauthoring",
+    "source": "local-simplified-import",
+    "sourceUrl": "I:\\公众号：小谢取证-skills\\skills",
+    "skillPath": "doc-coauthoring/SKILL.md"
+  },
+  {
+    "name": "docker-forensics",
+    "source": "local-simplified-import",
+    "sourceUrl": "I:\\公众号：小谢取证-skills\\skills",
+    "skillPath": "docker-forensics/SKILL.md"
+  },
+  {
+    "name": "docx",
+    "source": "local-simplified-import",
+    "sourceUrl": "I:\\公众号：小谢取证-skills\\skills",
+    "skillPath": "docx/SKILL.md"
+  },
+  {
+    "name": "excel-analysis",
+    "source": "local-simplified-import",
+    "sourceUrl": "I:\\公众号：小谢取证-skills\\skills",
+    "skillPath": "excel-analysis/SKILL.md"
+  },
+  {
+    "name": "executing-plans",
+    "source": "local-simplified-import",
+    "sourceUrl": "I:\\公众号：小谢取证-skills\\skills",
+    "skillPath": "executing-plans/SKILL.md"
+  },
+  {
+    "name": "finishing-a-development-branch",
+    "source": "local-simplified-import",
+    "sourceUrl": "I:\\公众号：小谢取证-skills\\skills",
+    "skillPath": "finishing-a-development-branch/SKILL.md"
+  },
+  {
+    "name": "forensics-tools",
+    "source": "local-simplified-import",
+    "sourceUrl": "I:\\公众号：小谢取证-skills\\skills",
+    "skillPath": "forensics-tools/SKILL.md"
+  },
+  {
+    "name": "frontend-design",
+    "source": "local-simplified-import",
+    "sourceUrl": "I:\\公众号：小谢取证-skills\\skills",
+    "skillPath": "frontend-design/SKILL.md"
+  },
+  {
+    "name": "github",
+    "source": "local-simplified-import",
+    "sourceUrl": "I:\\公众号：小谢取证-skills\\skills",
+    "skillPath": "github/SKILL.md"
+  },
+  {
+    "name": "hashcat-crack",
+    "source": "local-simplified-import",
+    "sourceUrl": "I:\\公众号：小谢取证-skills\\skills",
+    "skillPath": "hashcat-crack/SKILL.md"
+  },
+  {
+    "name": "Humanizer-zh",
+    "source": "local-simplified-import",
+    "sourceUrl": "I:\\公众号：小谢取证-skills\\skills",
+    "skillPath": "Humanizer-zh/SKILL.md"
+  },
+  {
+    "name": "internal-comms",
+    "source": "local-simplified-import",
+    "sourceUrl": "I:\\公众号：小谢取证-skills\\skills",
+    "skillPath": "internal-comms/SKILL.md"
+  },
+  {
+    "name": "jadx",
+    "source": "local-simplified-import",
+    "sourceUrl": "I:\\公众号：小谢取证-skills\\skills",
+    "skillPath": "jadx/SKILL.md"
+  },
+  {
+    "name": "mcp-builder",
+    "source": "local-simplified-import",
+    "sourceUrl": "I:\\公众号：小谢取证-skills\\skills",
+    "skillPath": "mcp-builder/SKILL.md"
+  },
+  {
+    "name": "memory-forensics",
+    "source": "local-simplified-import",
+    "sourceUrl": "I:\\公众号：小谢取证-skills\\skills",
+    "skillPath": "memory-forensics/SKILL.md"
+  },
+  {
+    "name": "memprocfs-assistant-zh",
+    "source": "local-simplified-import",
+    "sourceUrl": "I:\\公众号：小谢取证-skills\\skills",
+    "skillPath": "memprocfs-assistant-zh/SKILL.md"
+  },
+  {
+    "name": "novel-creator",
+    "source": "local-simplified-import",
+    "sourceUrl": "I:\\公众号：小谢取证-skills\\skills",
+    "skillPath": "novel-creator/SKILL.md"
+  },
+  {
+    "name": "pdf",
+    "source": "local-simplified-import",
+    "sourceUrl": "I:\\公众号：小谢取证-skills\\skills",
+    "skillPath": "pdf/SKILL.md"
+  },
+  {
+    "name": "pentest-ctf-forensics",
+    "source": "local-simplified-import",
+    "sourceUrl": "I:\\公众号：小谢取证-skills\\skills",
+    "skillPath": "pentest-ctf-forensics/SKILL.md"
+  },
+  {
+    "name": "pptx",
+    "source": "local-simplified-import",
+    "sourceUrl": "I:\\公众号：小谢取证-skills\\skills",
+    "skillPath": "pptx/SKILL.md"
+  },
+  {
+    "name": "protocol-reverse-engineering",
+    "source": "local-simplified-import",
+    "sourceUrl": "I:\\公众号：小谢取证-skills\\skills",
+    "skillPath": "protocol-reverse-engineering/SKILL.md"
+  },
+  {
+    "name": "railway-database",
+    "source": "local-simplified-import",
+    "sourceUrl": "I:\\公众号：小谢取证-skills\\skills",
+    "skillPath": "railway-database/SKILL.md"
+  },
+  {
+    "name": "receiving-code-review",
+    "source": "local-simplified-import",
+    "sourceUrl": "I:\\公众号：小谢取证-skills\\skills",
+    "skillPath": "receiving-code-review/SKILL.md"
+  },
+  {
+    "name": "renqing-adviser",
+    "source": "local-simplified-import",
+    "sourceUrl": "I:\\公众号：小谢取证-skills\\skills",
+    "skillPath": "renqing-adviser/SKILL.md"
+  },
+  {
+    "name": "requesting-code-review",
+    "source": "local-simplified-import",
+    "sourceUrl": "I:\\公众号：小谢取证-skills\\skills",
+    "skillPath": "requesting-code-review/SKILL.md"
+  },
+  {
+    "name": "rev-dex-dumper",
+    "source": "local-simplified-import",
+    "sourceUrl": "I:\\公众号：小谢取证-skills\\skills",
+    "skillPath": "rev-dex-dumper/SKILL.md"
+  },
+  {
+    "name": "rev-frida",
+    "source": "local-simplified-import",
+    "sourceUrl": "I:\\公众号：小谢取证-skills\\skills",
+    "skillPath": "rev-frida/SKILL.md"
+  },
+  {
+    "name": "rev-idapython",
+    "source": "local-simplified-import",
+    "sourceUrl": "I:\\公众号：小谢取证-skills\\skills",
+    "skillPath": "rev-idapython/SKILL.md"
+  },
+  {
+    "name": "rev-struct",
+    "source": "local-simplified-import",
+    "sourceUrl": "I:\\公众号：小谢取证-skills\\skills",
+    "skillPath": "rev-struct/SKILL.md"
+  },
+  {
+    "name": "rev-symbol",
+    "source": "local-simplified-import",
+    "sourceUrl": "I:\\公众号：小谢取证-skills\\skills",
+    "skillPath": "rev-symbol/SKILL.md"
+  },
+  {
+    "name": "rev-u3d-dump",
+    "source": "local-simplified-import",
+    "sourceUrl": "I:\\公众号：小谢取证-skills\\skills",
+    "skillPath": "rev-u3d-dump/SKILL.md"
+  },
+  {
+    "name": "rev-unicorn-debug",
+    "source": "local-simplified-import",
+    "sourceUrl": "I:\\公众号：小谢取证-skills\\skills",
+    "skillPath": "rev-unicorn-debug/SKILL.md"
+  },
+  {
+    "name": "reverse-engineering-android-malware-with-jadx",
+    "source": "local-simplified-import",
+    "sourceUrl": "I:\\公众号：小谢取证-skills\\skills",
+    "skillPath": "reverse-engineering-android-malware-with-jadx/SKILL.md"
+  },
+  {
+    "name": "server-audit",
+    "source": "local-simplified-import",
+    "sourceUrl": "I:\\公众号：小谢取证-skills\\skills",
+    "skillPath": "server-audit/SKILL.md"
+  },
+  {
+    "name": "skill-creator",
+    "source": "local-simplified-import",
+    "sourceUrl": "I:\\公众号：小谢取证-skills\\skills",
+    "skillPath": "skill-creator/SKILL.md"
+  },
+  {
+    "name": "slack-gif-creator",
+    "source": "local-simplified-import",
+    "sourceUrl": "I:\\公众号：小谢取证-skills\\skills",
+    "skillPath": "slack-gif-creator/SKILL.md"
+  },
+  {
+    "name": "sql-optimization-patterns",
+    "source": "local-simplified-import",
+    "sourceUrl": "I:\\公众号：小谢取证-skills\\skills",
+    "skillPath": "sql-optimization-patterns/SKILL.md"
+  },
+  {
+    "name": "ssh-penetration-testing",
+    "source": "local-simplified-import",
+    "sourceUrl": "I:\\公众号：小谢取证-skills\\skills",
+    "skillPath": "ssh-penetration-testing/SKILL.md"
+  },
+  {
+    "name": "subagent-driven-development",
+    "source": "local-simplified-import",
+    "sourceUrl": "I:\\公众号：小谢取证-skills\\skills",
+    "skillPath": "subagent-driven-development/SKILL.md"
+  },
+  {
+    "name": "systematic-debugging",
+    "source": "local-simplified-import",
+    "sourceUrl": "I:\\公众号：小谢取证-skills\\skills",
+    "skillPath": "systematic-debugging/SKILL.md"
+  },
+  {
+    "name": "test-driven-development",
+    "source": "local-simplified-import",
+    "sourceUrl": "I:\\公众号：小谢取证-skills\\skills",
+    "skillPath": "test-driven-development/SKILL.md"
+  },
+  {
+    "name": "theme-factory",
+    "source": "local-simplified-import",
+    "sourceUrl": "I:\\公众号：小谢取证-skills\\skills",
+    "skillPath": "theme-factory/SKILL.md"
+  },
+  {
+    "name": "using-git-worktrees",
+    "source": "local-simplified-import",
+    "sourceUrl": "I:\\公众号：小谢取证-skills\\skills",
+    "skillPath": "using-git-worktrees/SKILL.md"
+  },
+  {
+    "name": "using-superpowers",
+    "source": "local-simplified-import",
+    "sourceUrl": "I:\\公众号：小谢取证-skills\\skills",
+    "skillPath": "using-superpowers/SKILL.md"
+  },
+  {
+    "name": "verification-before-completion",
+    "source": "local-simplified-import",
+    "sourceUrl": "I:\\公众号：小谢取证-skills\\skills",
+    "skillPath": "verification-before-completion/SKILL.md"
+  },
+  {
+    "name": "weather",
+    "source": "local-simplified-import",
+    "sourceUrl": "I:\\公众号：小谢取证-skills\\skills",
+    "skillPath": "weather/SKILL.md"
+  },
+  {
+    "name": "web-artifacts-builder",
+    "source": "local-simplified-import",
+    "sourceUrl": "I:\\公众号：小谢取证-skills\\skills",
+    "skillPath": "web-artifacts-builder/SKILL.md"
+  },
+  {
+    "name": "webapp-testing",
+    "source": "local-simplified-import",
+    "sourceUrl": "I:\\公众号：小谢取证-skills\\skills",
+    "skillPath": "webapp-testing/SKILL.md"
+  },
+  {
+    "name": "whodb",
+    "source": "local-simplified-import",
+    "sourceUrl": "I:\\公众号：小谢取证-skills\\skills",
+    "skillPath": "whodb/SKILL.md"
+  },
+  {
+    "name": "wireshark-analysis",
+    "source": "local-simplified-import",
+    "sourceUrl": "I:\\公众号：小谢取证-skills\\skills",
+    "skillPath": "wireshark-analysis/SKILL.md"
+  },
+  {
+    "name": "wireshark-network-traffic-analysis",
+    "source": "local-simplified-import",
+    "sourceUrl": "I:\\公众号：小谢取证-skills\\skills",
+    "skillPath": "wireshark-network-traffic-analysis/SKILL.md"
+  },
+  {
+    "name": "writing-plans",
+    "source": "local-simplified-import",
+    "sourceUrl": "I:\\公众号：小谢取证-skills\\skills",
+    "skillPath": "writing-plans/SKILL.md"
+  },
+  {
+    "name": "writing-skills",
+    "source": "local-simplified-import",
+    "sourceUrl": "I:\\公众号：小谢取证-skills\\skills",
+    "skillPath": "writing-skills/SKILL.md"
+  },
+  {
+    "name": "xlsx",
+    "source": "local-simplified-import",
+    "sourceUrl": "I:\\公众号：小谢取证-skills\\skills",
+    "skillPath": "xlsx/SKILL.md"
+  },
+  {
+    "name": "wechat-article-extractor",
+    "source": "freestylefly/wechat-article-extractor-skill",
+    "sourceUrl": "https://github.com/freestylefly/wechat-article-extractor-skill.git",
+    "skillPath": "SKILL.md"
+  },
+  {
+    "name": "wechat-article-to-markdown",
+    "source": "jackwener/wechat-article-to-markdown",
+    "sourceUrl": "https://github.com/jackwener/wechat-article-to-markdown.git",
+    "skillPath": "SKILL.md"
+  }
+]

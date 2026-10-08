@@ -1,0 +1,24 @@
+# Required runtimes
+DSH
+Git
+Node.js LTS and npm
+Python 3.x
+
+# Core forensic tools
+FireEye/Honglian forensic software and licensed components
+Volatility 3
+MemProcFS
+The Sleuth Kit: fls, mmls, icat, fsstat
+Wireshark and tshark
+7-Zip
+ExifTool
+SQLite command-line tools or DB Browser for SQLite
+
+# Recommended additions
+Plaso/log2timeline
+YARA
+ALEAPP/iLEAPP
+Foremost or Scalpel
+Bulk Extractor
+JADX
+Ghidra or IDA Pro

@@ -1,0 +1,27 @@
+# Local credentials, caches, sessions, and machine-specific state
+.credentials.yaml
+**/.credentials.yaml
+**/sessions/
+**/attachments/
+**/storages/
+**/node_modules/
+**/__pycache__/
+**/.vscode/
+**/.env
+**/*.pem
+**/*.key
+**/*.p12
+**/*.pfx
+
+# Vendor-restricted or machine-specific binaries
+vendor-drop/
+**/*.exe
+**/*.dll
+**/*.sys
+**/*.msi
+
+# Local logs and generated output
+*.log
+*.tmp
+output/
+reports/

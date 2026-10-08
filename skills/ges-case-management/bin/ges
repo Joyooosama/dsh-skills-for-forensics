@@ -1,0 +1,86 @@
+#!/usr/bin/env sh
+set -eu
+
+SCRIPT_DIR=$(CDPATH= cd -- "$(dirname -- "$0")" && pwd)
+
+GE_HOME_TEMPLATE="D:\Programs\Honglian\GoldenEyesV4"
+
+GE_HOME_RESOLVED=${GOLDENEYES_HOME:-${GE_HOME:-}}
+GE_PYTHON=${GOLDENEYES_PYTHON:-}
+GE_PYPLUGIN=${GOLDENEYES_PYPLUGIN:-}
+
+if [ -z "$GE_HOME_RESOLVED" ] && [ "$GE_HOME_TEMPLATE" != "__GOLDENEYES_HOME__" ]; then
+    GE_HOME_RESOLVED=$GE_HOME_TEMPLATE
+fi
+
+try_home_candidate() {
+    candidate=$(CDPATH= cd -- "$1" 2>/dev/null && pwd || true)
+    if [ -n "$candidate" ] && { [ -x "$candidate/Python311/bin/python3" ] || [ -x "$candidate/Python311/python" ] || [ -x "$candidate/Python311/python3" ]; }; then
+        GE_HOME_RESOLVED=$candidate
+    fi
+}
+
+if [ -z "$GE_HOME_RESOLVED" ]; then
+    try_home_candidate "$SCRIPT_DIR/../../.."
+fi
+
+if [ -z "$GE_HOME_RESOLVED" ]; then
+    try_home_candidate "$SCRIPT_DIR/../../../../../../"
+fi
+
+if [ -z "$GE_HOME_RESOLVED" ]; then
+    for candidate in \
+        "/opt/Honglian/GoldenEyesV4" \
+        "/opt/honglian/GoldenEyesV4" \
+        "/opt/goldeneyes/GoldenEyesV4" \
+        "/usr/local/Honglian/GoldenEyesV4" \
+        "/usr/local/GoldenEyesV4"
+    do
+        if [ -x "$candidate/Python311/bin/python3" ] || [ -x "$candidate/Python311/python" ]; then
+            GE_HOME_RESOLVED=$candidate
+            break
+        fi
+    done
+fi
+
+if [ -n "$GE_HOME_RESOLVED" ]; then
+    if [ -z "$GE_PYTHON" ] && [ -x "$GE_HOME_RESOLVED/Python311/bin/python3" ]; then
+        GE_PYTHON=$GE_HOME_RESOLVED/Python311/bin/python3
+    elif [ -z "$GE_PYTHON" ] && [ -x "$GE_HOME_RESOLVED/Python311/python" ]; then
+        GE_PYTHON=$GE_HOME_RESOLVED/Python311/python
+    elif [ -z "$GE_PYTHON" ] && [ -x "$GE_HOME_RESOLVED/Python311/python3" ]; then
+        GE_PYTHON=$GE_HOME_RESOLVED/Python311/python3
+    fi
+    if [ -z "$GE_PYPLUGIN" ]; then
+        GE_PYPLUGIN=$GE_HOME_RESOLVED/pyplugin
+    fi
+fi
+
+if [ -z "$GE_PYTHON" ]; then
+    if command -v python3 >/dev/null 2>&1; then
+        GE_PYTHON=$(command -v python3)
+    else
+        echo "错误: 未找到火眼 Python。请将 GOLDENEYES_HOME 设置为 GoldenEyesV4 安装目录。" >&2
+        exit 1
+    fi
+fi
+
+if [ -n "$GE_PYPLUGIN" ] && [ -d "$GE_PYPLUGIN/pygesclient" ]; then
+    if [ -n "${PYTHONPATH:-}" ]; then
+        export PYTHONPATH="$GE_PYPLUGIN:$PYTHONPATH"
+    else
+        export PYTHONPATH="$GE_PYPLUGIN"
+    fi
+elif ! "$GE_PYTHON" -c "import pygesclient" >/dev/null 2>&1; then
+    if [ -n "$GE_PYPLUGIN" ]; then
+        echo "错误: 在以下目录未找到 pygesclient: $GE_PYPLUGIN" >&2
+    else
+        echo "错误: 无法导入 pygesclient。请设置 GOLDENEYES_HOME 或 PYTHONPATH。" >&2
+    fi
+    exit 1
+fi
+
+export PYTHONUTF8=1
+export PYTHONIOENCODING=utf-8
+
+exec "$GE_PYTHON" -c "from pygesclient.ges_cli.main import main; raise SystemExit(main())" "$@"
