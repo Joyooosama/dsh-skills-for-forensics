@@ -1,15 +1,375 @@
 [
   {
-    "name": "ctf-ai-ml",
-    "source": "ljagiello/ctf-skills",
-    "sourceUrl": "https://github.com/ljagiello/ctf-skills.git",
-    "skillPath": "ctf-ai-ml/SKILL.md"
+    "name": "acquiring-disk-image-with-dd-and-dcfldd",
+    "source": "copied-from-local",
+    "sourceUrl": "NOT_IN_LOCKFILE",
+    "skillPath": "acquiring-disk-image-with-dd-and-dcfldd/SKILL.md"
   },
   {
-    "name": "ctf-crypto",
-    "source": "ljagiello/ctf-skills",
-    "sourceUrl": "https://github.com/ljagiello/ctf-skills.git",
-    "skillPath": "ctf-crypto/SKILL.md"
+    "name": "analyzing-android-malware-with-apktool",
+    "source": "copied-from-local",
+    "sourceUrl": "NOT_IN_LOCKFILE",
+    "skillPath": "analyzing-android-malware-with-apktool/SKILL.md"
+  },
+  {
+    "name": "analyzing-api-gateway-access-logs",
+    "source": "copied-from-local",
+    "sourceUrl": "NOT_IN_LOCKFILE",
+    "skillPath": "analyzing-api-gateway-access-logs/SKILL.md"
+  },
+  {
+    "name": "analyzing-azure-activity-logs-for-threats",
+    "source": "copied-from-local",
+    "sourceUrl": "NOT_IN_LOCKFILE",
+    "skillPath": "analyzing-azure-activity-logs-for-threats/SKILL.md"
+  },
+  {
+    "name": "analyzing-bootkit-and-rootkit-samples",
+    "source": "copied-from-local",
+    "sourceUrl": "NOT_IN_LOCKFILE",
+    "skillPath": "analyzing-bootkit-and-rootkit-samples/SKILL.md"
+  },
+  {
+    "name": "analyzing-browser-forensics-with-hindsight",
+    "source": "copied-from-local",
+    "sourceUrl": "NOT_IN_LOCKFILE",
+    "skillPath": "analyzing-browser-forensics-with-hindsight/SKILL.md"
+  },
+  {
+    "name": "analyzing-campaign-attribution-evidence",
+    "source": "copied-from-local",
+    "sourceUrl": "NOT_IN_LOCKFILE",
+    "skillPath": "analyzing-campaign-attribution-evidence/SKILL.md"
+  },
+  {
+    "name": "analyzing-cloud-storage-access-patterns",
+    "source": "copied-from-local",
+    "sourceUrl": "NOT_IN_LOCKFILE",
+    "skillPath": "analyzing-cloud-storage-access-patterns/SKILL.md"
+  },
+  {
+    "name": "analyzing-device-images-as-cases",
+    "source": "copied-from-local",
+    "sourceUrl": "NOT_IN_LOCKFILE",
+    "skillPath": "analyzing-device-images-as-cases/SKILL.md"
+  },
+  {
+    "name": "analyzing-disk-image-with-autopsy",
+    "source": "copied-from-local",
+    "sourceUrl": "NOT_IN_LOCKFILE",
+    "skillPath": "analyzing-disk-image-with-autopsy/SKILL.md"
+  },
+  {
+    "name": "analyzing-dns-logs-for-exfiltration",
+    "source": "copied-from-local",
+    "sourceUrl": "NOT_IN_LOCKFILE",
+    "skillPath": "analyzing-dns-logs-for-exfiltration/SKILL.md"
+  },
+  {
+    "name": "analyzing-docker-container-forensics",
+    "source": "copied-from-local",
+    "sourceUrl": "NOT_IN_LOCKFILE",
+    "skillPath": "analyzing-docker-container-forensics/SKILL.md"
+  },
+  {
+    "name": "analyzing-email-headers-for-phishing-investigation",
+    "source": "copied-from-local",
+    "sourceUrl": "NOT_IN_LOCKFILE",
+    "skillPath": "analyzing-email-headers-for-phishing-investigation/SKILL.md"
+  },
+  {
+    "name": "analyzing-golang-malware-with-ghidra",
+    "source": "copied-from-local",
+    "sourceUrl": "NOT_IN_LOCKFILE",
+    "skillPath": "analyzing-golang-malware-with-ghidra/SKILL.md"
+  },
+  {
+    "name": "analyzing-indicators-of-compromise",
+    "source": "copied-from-local",
+    "sourceUrl": "NOT_IN_LOCKFILE",
+    "skillPath": "analyzing-indicators-of-compromise/SKILL.md"
+  },
+  {
+    "name": "analyzing-kubernetes-audit-logs",
+    "source": "copied-from-local",
+    "sourceUrl": "NOT_IN_LOCKFILE",
+    "skillPath": "analyzing-kubernetes-audit-logs/SKILL.md"
+  },
+  {
+    "name": "analyzing-linux-audit-logs-for-intrusion",
+    "source": "copied-from-local",
+    "sourceUrl": "NOT_IN_LOCKFILE",
+    "skillPath": "analyzing-linux-audit-logs-for-intrusion/SKILL.md"
+  },
+  {
+    "name": "analyzing-linux-elf-malware",
+    "source": "copied-from-local",
+    "sourceUrl": "NOT_IN_LOCKFILE",
+    "skillPath": "analyzing-linux-elf-malware/SKILL.md"
+  },
+  {
+    "name": "analyzing-linux-system-artifacts",
+    "source": "copied-from-local",
+    "sourceUrl": "NOT_IN_LOCKFILE",
+    "skillPath": "analyzing-linux-system-artifacts/SKILL.md"
+  },
+  {
+    "name": "analyzing-lnk-file-and-jump-list-artifacts",
+    "source": "copied-from-local",
+    "sourceUrl": "NOT_IN_LOCKFILE",
+    "skillPath": "analyzing-lnk-file-and-jump-list-artifacts/SKILL.md"
+  },
+  {
+    "name": "analyzing-macro-malware-in-office-documents",
+    "source": "copied-from-local",
+    "sourceUrl": "NOT_IN_LOCKFILE",
+    "skillPath": "analyzing-macro-malware-in-office-documents/SKILL.md"
+  },
+  {
+    "name": "analyzing-malicious-pdf-with-peepdf",
+    "source": "copied-from-local",
+    "sourceUrl": "NOT_IN_LOCKFILE",
+    "skillPath": "analyzing-malicious-pdf-with-peepdf/SKILL.md"
+  },
+  {
+    "name": "analyzing-malware-behavior-with-cuckoo-sandbox",
+    "source": "copied-from-local",
+    "sourceUrl": "NOT_IN_LOCKFILE",
+    "skillPath": "analyzing-malware-behavior-with-cuckoo-sandbox/SKILL.md"
+  },
+  {
+    "name": "analyzing-malware-persistence-with-autoruns",
+    "source": "copied-from-local",
+    "sourceUrl": "NOT_IN_LOCKFILE",
+    "skillPath": "analyzing-malware-persistence-with-autoruns/SKILL.md"
+  },
+  {
+    "name": "analyzing-malware-sandbox-evasion-techniques",
+    "source": "copied-from-local",
+    "sourceUrl": "NOT_IN_LOCKFILE",
+    "skillPath": "analyzing-malware-sandbox-evasion-techniques/SKILL.md"
+  },
+  {
+    "name": "analyzing-memory-dumps-with-volatility",
+    "source": "copied-from-local",
+    "sourceUrl": "NOT_IN_LOCKFILE",
+    "skillPath": "analyzing-memory-dumps-with-volatility/SKILL.md"
+  },
+  {
+    "name": "analyzing-memory-forensics-with-lime-and-volatility",
+    "source": "copied-from-local",
+    "sourceUrl": "NOT_IN_LOCKFILE",
+    "skillPath": "analyzing-memory-forensics-with-lime-and-volatility/SKILL.md"
+  },
+  {
+    "name": "analyzing-mft-for-deleted-file-recovery",
+    "source": "copied-from-local",
+    "sourceUrl": "NOT_IN_LOCKFILE",
+    "skillPath": "analyzing-mft-for-deleted-file-recovery/SKILL.md"
+  },
+  {
+    "name": "analyzing-mobile-app-packages",
+    "source": "copied-from-local",
+    "sourceUrl": "NOT_IN_LOCKFILE",
+    "skillPath": "analyzing-mobile-app-packages/SKILL.md"
+  },
+  {
+    "name": "analyzing-network-covert-channels-in-malware",
+    "source": "copied-from-local",
+    "sourceUrl": "NOT_IN_LOCKFILE",
+    "skillPath": "analyzing-network-covert-channels-in-malware/SKILL.md"
+  },
+  {
+    "name": "analyzing-network-flow-data-with-netflow",
+    "source": "copied-from-local",
+    "sourceUrl": "NOT_IN_LOCKFILE",
+    "skillPath": "analyzing-network-flow-data-with-netflow/SKILL.md"
+  },
+  {
+    "name": "analyzing-network-packets-with-scapy",
+    "source": "copied-from-local",
+    "sourceUrl": "NOT_IN_LOCKFILE",
+    "skillPath": "analyzing-network-packets-with-scapy/SKILL.md"
+  },
+  {
+    "name": "analyzing-network-traffic-for-incidents",
+    "source": "copied-from-local",
+    "sourceUrl": "NOT_IN_LOCKFILE",
+    "skillPath": "analyzing-network-traffic-for-incidents/SKILL.md"
+  },
+  {
+    "name": "analyzing-network-traffic-of-malware",
+    "source": "copied-from-local",
+    "sourceUrl": "NOT_IN_LOCKFILE",
+    "skillPath": "analyzing-network-traffic-of-malware/SKILL.md"
+  },
+  {
+    "name": "analyzing-network-traffic-with-wireshark",
+    "source": "copied-from-local",
+    "sourceUrl": "NOT_IN_LOCKFILE",
+    "skillPath": "analyzing-network-traffic-with-wireshark/SKILL.md"
+  },
+  {
+    "name": "analyzing-office365-audit-logs-for-compromise",
+    "source": "copied-from-local",
+    "sourceUrl": "NOT_IN_LOCKFILE",
+    "skillPath": "analyzing-office365-audit-logs-for-compromise/SKILL.md"
+  },
+  {
+    "name": "analyzing-outlook-pst-for-email-forensics",
+    "source": "copied-from-local",
+    "sourceUrl": "NOT_IN_LOCKFILE",
+    "skillPath": "analyzing-outlook-pst-for-email-forensics/SKILL.md"
+  },
+  {
+    "name": "analyzing-packed-malware-with-upx-unpacker",
+    "source": "copied-from-local",
+    "sourceUrl": "NOT_IN_LOCKFILE",
+    "skillPath": "analyzing-packed-malware-with-upx-unpacker/SKILL.md"
+  },
+  {
+    "name": "analyzing-pdf-malware-with-pdfid",
+    "source": "copied-from-local",
+    "sourceUrl": "NOT_IN_LOCKFILE",
+    "skillPath": "analyzing-pdf-malware-with-pdfid/SKILL.md"
+  },
+  {
+    "name": "analyzing-persistence-mechanisms-in-linux",
+    "source": "copied-from-local",
+    "sourceUrl": "NOT_IN_LOCKFILE",
+    "skillPath": "analyzing-persistence-mechanisms-in-linux/SKILL.md"
+  },
+  {
+    "name": "analyzing-powershell-empire-artifacts",
+    "source": "copied-from-local",
+    "sourceUrl": "NOT_IN_LOCKFILE",
+    "skillPath": "analyzing-powershell-empire-artifacts/SKILL.md"
+  },
+  {
+    "name": "analyzing-powershell-script-block-logging",
+    "source": "copied-from-local",
+    "sourceUrl": "NOT_IN_LOCKFILE",
+    "skillPath": "analyzing-powershell-script-block-logging/SKILL.md"
+  },
+  {
+    "name": "analyzing-prefetch-files-for-execution-history",
+    "source": "copied-from-local",
+    "sourceUrl": "NOT_IN_LOCKFILE",
+    "skillPath": "analyzing-prefetch-files-for-execution-history/SKILL.md"
+  },
+  {
+    "name": "analyzing-ransomware-encryption-mechanisms",
+    "source": "copied-from-local",
+    "sourceUrl": "NOT_IN_LOCKFILE",
+    "skillPath": "analyzing-ransomware-encryption-mechanisms/SKILL.md"
+  },
+  {
+    "name": "analyzing-ransomware-network-indicators",
+    "source": "copied-from-local",
+    "sourceUrl": "NOT_IN_LOCKFILE",
+    "skillPath": "analyzing-ransomware-network-indicators/SKILL.md"
+  },
+  {
+    "name": "analyzing-security-logs-with-splunk",
+    "source": "copied-from-local",
+    "sourceUrl": "NOT_IN_LOCKFILE",
+    "skillPath": "analyzing-security-logs-with-splunk/SKILL.md"
+  },
+  {
+    "name": "analyzing-slack-space-and-file-system-artifacts",
+    "source": "copied-from-local",
+    "sourceUrl": "NOT_IN_LOCKFILE",
+    "skillPath": "analyzing-slack-space-and-file-system-artifacts/SKILL.md"
+  },
+  {
+    "name": "analyzing-supply-chain-malware-artifacts",
+    "source": "copied-from-local",
+    "sourceUrl": "NOT_IN_LOCKFILE",
+    "skillPath": "analyzing-supply-chain-malware-artifacts/SKILL.md"
+  },
+  {
+    "name": "analyzing-uefi-bootkit-persistence",
+    "source": "copied-from-local",
+    "sourceUrl": "NOT_IN_LOCKFILE",
+    "skillPath": "analyzing-uefi-bootkit-persistence/SKILL.md"
+  },
+  {
+    "name": "analyzing-usb-device-connection-history",
+    "source": "copied-from-local",
+    "sourceUrl": "NOT_IN_LOCKFILE",
+    "skillPath": "analyzing-usb-device-connection-history/SKILL.md"
+  },
+  {
+    "name": "analyzing-web-server-logs-for-intrusion",
+    "source": "copied-from-local",
+    "sourceUrl": "NOT_IN_LOCKFILE",
+    "skillPath": "analyzing-web-server-logs-for-intrusion/SKILL.md"
+  },
+  {
+    "name": "analyzing-windows-amcache-artifacts",
+    "source": "copied-from-local",
+    "sourceUrl": "NOT_IN_LOCKFILE",
+    "skillPath": "analyzing-windows-amcache-artifacts/SKILL.md"
+  },
+  {
+    "name": "analyzing-windows-event-logs-in-splunk",
+    "source": "copied-from-local",
+    "sourceUrl": "NOT_IN_LOCKFILE",
+    "skillPath": "analyzing-windows-event-logs-in-splunk/SKILL.md"
+  },
+  {
+    "name": "analyzing-windows-lnk-files-for-artifacts",
+    "source": "copied-from-local",
+    "sourceUrl": "NOT_IN_LOCKFILE",
+    "skillPath": "analyzing-windows-lnk-files-for-artifacts/SKILL.md"
+  },
+  {
+    "name": "analyzing-windows-prefetch-with-python",
+    "source": "copied-from-local",
+    "sourceUrl": "NOT_IN_LOCKFILE",
+    "skillPath": "analyzing-windows-prefetch-with-python/SKILL.md"
+  },
+  {
+    "name": "analyzing-windows-registry-for-artifacts",
+    "source": "copied-from-local",
+    "sourceUrl": "NOT_IN_LOCKFILE",
+    "skillPath": "analyzing-windows-registry-for-artifacts/SKILL.md"
+  },
+  {
+    "name": "analyzing-windows-shellbag-artifacts",
+    "source": "copied-from-local",
+    "sourceUrl": "NOT_IN_LOCKFILE",
+    "skillPath": "analyzing-windows-shellbag-artifacts/SKILL.md"
+  },
+  {
+    "name": "clonezilla-to-e01",
+    "source": "copied-from-local",
+    "sourceUrl": "NOT_IN_LOCKFILE",
+    "skillPath": "clonezilla-to-e01/SKILL.md"
+  },
+  {
+    "name": "collecting-indicators-of-compromise",
+    "source": "copied-from-local",
+    "sourceUrl": "NOT_IN_LOCKFILE",
+    "skillPath": "collecting-indicators-of-compromise/SKILL.md"
+  },
+  {
+    "name": "collecting-volatile-evidence-from-compromised-host",
+    "source": "copied-from-local",
+    "sourceUrl": "NOT_IN_LOCKFILE",
+    "skillPath": "collecting-volatile-evidence-from-compromised-host/SKILL.md"
+  },
+  {
+    "name": "conducting-malware-incident-response",
+    "source": "copied-from-local",
+    "sourceUrl": "NOT_IN_LOCKFILE",
+    "skillPath": "conducting-malware-incident-response/SKILL.md"
+  },
+  {
+    "name": "conducting-memory-forensics-with-volatility",
+    "source": "copied-from-local",
+    "sourceUrl": "NOT_IN_LOCKFILE",
+    "skillPath": "conducting-memory-forensics-with-volatility/SKILL.md"
   },
   {
     "name": "ctf-forensics",
@@ -24,471 +384,315 @@
     "skillPath": "ctf-malware/SKILL.md"
   },
   {
-    "name": "ctf-misc",
-    "source": "ljagiello/ctf-skills",
-    "sourceUrl": "https://github.com/ljagiello/ctf-skills.git",
-    "skillPath": "ctf-misc/SKILL.md"
-  },
-  {
-    "name": "ctf-osint",
-    "source": "ljagiello/ctf-skills",
-    "sourceUrl": "https://github.com/ljagiello/ctf-skills.git",
-    "skillPath": "ctf-osint/SKILL.md"
-  },
-  {
-    "name": "ctf-pwn",
-    "source": "ljagiello/ctf-skills",
-    "sourceUrl": "https://github.com/ljagiello/ctf-skills.git",
-    "skillPath": "ctf-pwn/SKILL.md"
-  },
-  {
-    "name": "ctf-reverse",
-    "source": "ljagiello/ctf-skills",
-    "sourceUrl": "https://github.com/ljagiello/ctf-skills.git",
-    "skillPath": "ctf-reverse/SKILL.md"
-  },
-  {
-    "name": "ctf-web",
-    "source": "ljagiello/ctf-skills",
-    "sourceUrl": "https://github.com/ljagiello/ctf-skills.git",
-    "skillPath": "ctf-web/SKILL.md"
-  },
-  {
-    "name": "ctf-writeup",
-    "source": "ljagiello/ctf-skills",
-    "sourceUrl": "https://github.com/ljagiello/ctf-skills.git",
-    "skillPath": "ctf-writeup/SKILL.md"
-  },
-  {
-    "name": "solve-challenge",
-    "source": "ljagiello/ctf-skills",
-    "sourceUrl": "https://github.com/ljagiello/ctf-skills.git",
-    "skillPath": "solve-challenge/SKILL.md"
-  },
-  {
-    "name": "find-skills",
-    "source": "vercel-labs/skills",
-    "sourceUrl": "https://github.com/vercel-labs/skills.git",
-    "skillPath": "skills/find-skills/SKILL.md"
-  },
-  {
-    "name": "algorithmic-art",
-    "source": "local-simplified-import",
-    "sourceUrl": "I:\\公众号：小谢取证-skills\\skills",
-    "skillPath": "algorithmic-art/SKILL.md"
-  },
-  {
-    "name": "anti-reversing-techniques",
-    "source": "local-simplified-import",
-    "sourceUrl": "I:\\公众号：小谢取证-skills\\skills",
-    "skillPath": "anti-reversing-techniques/SKILL.md"
-  },
-  {
-    "name": "apktool",
-    "source": "local-simplified-import",
-    "sourceUrl": "I:\\公众号：小谢取证-skills\\skills",
-    "skillPath": "apktool/SKILL.md"
-  },
-  {
-    "name": "binary-analysis-patterns",
-    "source": "local-simplified-import",
-    "sourceUrl": "I:\\公众号：小谢取证-skills\\skills",
-    "skillPath": "binary-analysis-patterns/SKILL.md"
-  },
-  {
-    "name": "brainstorming",
-    "source": "local-simplified-import",
-    "sourceUrl": "I:\\公众号：小谢取证-skills\\skills",
-    "skillPath": "brainstorming/SKILL.md"
-  },
-  {
-    "name": "brand-guidelines",
-    "source": "local-simplified-import",
-    "sourceUrl": "I:\\公众号：小谢取证-skills\\skills",
-    "skillPath": "brand-guidelines/SKILL.md"
-  },
-  {
-    "name": "canvas-design",
-    "source": "local-simplified-import",
-    "sourceUrl": "I:\\公众号：小谢取证-skills\\skills",
-    "skillPath": "canvas-design/SKILL.md"
-  },
-  {
-    "name": "claude-api",
-    "source": "local-simplified-import",
-    "sourceUrl": "I:\\公众号：小谢取证-skills\\skills",
-    "skillPath": "claude-api/SKILL.md"
-  },
-  {
-    "name": "ctf-misc-skill",
-    "source": "local-simplified-import",
-    "sourceUrl": "I:\\公众号：小谢取证-skills\\skills",
-    "skillPath": "ctf-misc-skill/SKILL.md"
-  },
-  {
-    "name": "ctf-misc-solver",
-    "source": "local-simplified-import",
-    "sourceUrl": "I:\\公众号：小谢取证-skills\\skills",
-    "skillPath": "ctf-misc-solver/SKILL.md"
-  },
-  {
-    "name": "ctf-rev",
-    "source": "local-simplified-import",
-    "sourceUrl": "I:\\公众号：小谢取证-skills\\skills",
-    "skillPath": "ctf-rev/SKILL.md"
-  },
-  {
-    "name": "ctf-web-skill",
-    "source": "local-simplified-import",
-    "sourceUrl": "I:\\公众号：小谢取证-skills\\skills",
-    "skillPath": "ctf-web-skill/SKILL.md"
-  },
-  {
-    "name": "deepfake-detection",
-    "source": "local-simplified-import",
-    "sourceUrl": "I:\\公众号：小谢取证-skills\\skills",
-    "skillPath": "deepfake-detection/SKILL.md"
-  },
-  {
-    "name": "dispatching-parallel-agents",
-    "source": "local-simplified-import",
-    "sourceUrl": "I:\\公众号：小谢取证-skills\\skills",
-    "skillPath": "dispatching-parallel-agents/SKILL.md"
-  },
-  {
-    "name": "doc-coauthoring",
-    "source": "local-simplified-import",
-    "sourceUrl": "I:\\公众号：小谢取证-skills\\skills",
-    "skillPath": "doc-coauthoring/SKILL.md"
-  },
-  {
     "name": "docker-forensics",
     "source": "local-simplified-import",
-    "sourceUrl": "I:\\公众号：小谢取证-skills\\skills",
+    "sourceUrl": "LOCAL_SOURCE_NOT_PUBLIC",
     "skillPath": "docker-forensics/SKILL.md"
   },
   {
-    "name": "docx",
-    "source": "local-simplified-import",
-    "sourceUrl": "I:\\公众号：小谢取证-skills\\skills",
-    "skillPath": "docx/SKILL.md"
+    "name": "extracting-browser-history-artifacts",
+    "source": "copied-from-local",
+    "sourceUrl": "NOT_IN_LOCKFILE",
+    "skillPath": "extracting-browser-history-artifacts/SKILL.md"
   },
   {
-    "name": "excel-analysis",
-    "source": "local-simplified-import",
-    "sourceUrl": "I:\\公众号：小谢取证-skills\\skills",
-    "skillPath": "excel-analysis/SKILL.md"
+    "name": "extracting-config-from-agent-tesla-rat",
+    "source": "copied-from-local",
+    "sourceUrl": "NOT_IN_LOCKFILE",
+    "skillPath": "extracting-config-from-agent-tesla-rat/SKILL.md"
   },
   {
-    "name": "executing-plans",
-    "source": "local-simplified-import",
-    "sourceUrl": "I:\\公众号：小谢取证-skills\\skills",
-    "skillPath": "executing-plans/SKILL.md"
+    "name": "extracting-iocs-from-malware-samples",
+    "source": "copied-from-local",
+    "sourceUrl": "NOT_IN_LOCKFILE",
+    "skillPath": "extracting-iocs-from-malware-samples/SKILL.md"
   },
   {
-    "name": "finishing-a-development-branch",
-    "source": "local-simplified-import",
-    "sourceUrl": "I:\\公众号：小谢取证-skills\\skills",
-    "skillPath": "finishing-a-development-branch/SKILL.md"
+    "name": "extracting-memory-artifacts-with-rekall",
+    "source": "copied-from-local",
+    "sourceUrl": "NOT_IN_LOCKFILE",
+    "skillPath": "extracting-memory-artifacts-with-rekall/SKILL.md"
+  },
+  {
+    "name": "extracting-windows-event-logs-artifacts",
+    "source": "copied-from-local",
+    "sourceUrl": "NOT_IN_LOCKFILE",
+    "skillPath": "extracting-windows-event-logs-artifacts/SKILL.md"
   },
   {
     "name": "forensics-tools",
     "source": "local-simplified-import",
-    "sourceUrl": "I:\\公众号：小谢取证-skills\\skills",
+    "sourceUrl": "LOCAL_SOURCE_NOT_PUBLIC",
     "skillPath": "forensics-tools/SKILL.md"
   },
   {
-    "name": "frontend-design",
-    "source": "local-simplified-import",
-    "sourceUrl": "I:\\公众号：小谢取证-skills\\skills",
-    "skillPath": "frontend-design/SKILL.md"
+    "name": "ges-case-analysis",
+    "source": "copied-from-local",
+    "sourceUrl": "NOT_IN_LOCKFILE",
+    "skillPath": "ges-case-analysis/SKILL.md"
   },
   {
-    "name": "github",
-    "source": "local-simplified-import",
-    "sourceUrl": "I:\\公众号：小谢取证-skills\\skills",
-    "skillPath": "github/SKILL.md"
+    "name": "ges-case-management",
+    "source": "copied-from-local",
+    "sourceUrl": "NOT_IN_LOCKFILE",
+    "skillPath": "ges-case-management/SKILL.md"
   },
   {
-    "name": "hashcat-crack",
-    "source": "local-simplified-import",
-    "sourceUrl": "I:\\公众号：小谢取证-skills\\skills",
-    "skillPath": "hashcat-crack/SKILL.md"
+    "name": "image-steganography",
+    "source": "copied-from-local",
+    "sourceUrl": "NOT_IN_LOCKFILE",
+    "skillPath": "image-steganography/SKILL.md"
   },
   {
-    "name": "Humanizer-zh",
-    "source": "local-simplified-import",
-    "sourceUrl": "I:\\公众号：小谢取证-skills\\skills",
-    "skillPath": "Humanizer-zh/SKILL.md"
+    "name": "investigating-disk-images-by-emulation",
+    "source": "copied-from-local",
+    "sourceUrl": "NOT_IN_LOCKFILE",
+    "skillPath": "investigating-disk-images-by-emulation/SKILL.md"
   },
   {
-    "name": "internal-comms",
-    "source": "local-simplified-import",
-    "sourceUrl": "I:\\公众号：小谢取证-skills\\skills",
-    "skillPath": "internal-comms/SKILL.md"
+    "name": "investigating-insider-threat-indicators",
+    "source": "copied-from-local",
+    "sourceUrl": "NOT_IN_LOCKFILE",
+    "skillPath": "investigating-insider-threat-indicators/SKILL.md"
+  },
+  {
+    "name": "investigating-phishing-email-incident",
+    "source": "copied-from-local",
+    "sourceUrl": "NOT_IN_LOCKFILE",
+    "skillPath": "investigating-phishing-email-incident/SKILL.md"
+  },
+  {
+    "name": "investigating-ransomware-attack-artifacts",
+    "source": "copied-from-local",
+    "sourceUrl": "NOT_IN_LOCKFILE",
+    "skillPath": "investigating-ransomware-attack-artifacts/SKILL.md"
   },
   {
     "name": "jadx",
     "source": "local-simplified-import",
-    "sourceUrl": "I:\\公众号：小谢取证-skills\\skills",
+    "sourceUrl": "LOCAL_SOURCE_NOT_PUBLIC",
     "skillPath": "jadx/SKILL.md"
-  },
-  {
-    "name": "mcp-builder",
-    "source": "local-simplified-import",
-    "sourceUrl": "I:\\公众号：小谢取证-skills\\skills",
-    "skillPath": "mcp-builder/SKILL.md"
   },
   {
     "name": "memory-forensics",
     "source": "local-simplified-import",
-    "sourceUrl": "I:\\公众号：小谢取证-skills\\skills",
+    "sourceUrl": "LOCAL_SOURCE_NOT_PUBLIC",
     "skillPath": "memory-forensics/SKILL.md"
   },
   {
     "name": "memprocfs-assistant-zh",
     "source": "local-simplified-import",
-    "sourceUrl": "I:\\公众号：小谢取证-skills\\skills",
+    "sourceUrl": "LOCAL_SOURCE_NOT_PUBLIC",
     "skillPath": "memprocfs-assistant-zh/SKILL.md"
   },
   {
-    "name": "novel-creator",
-    "source": "local-simplified-import",
-    "sourceUrl": "I:\\公众号：小谢取证-skills\\skills",
-    "skillPath": "novel-creator/SKILL.md"
+    "name": "miui-mobile-forensics",
+    "source": "copied-from-local",
+    "sourceUrl": "NOT_IN_LOCKFILE",
+    "skillPath": "miui-mobile-forensics/SKILL.md"
   },
   {
     "name": "pdf",
     "source": "local-simplified-import",
-    "sourceUrl": "I:\\公众号：小谢取证-skills\\skills",
+    "sourceUrl": "LOCAL_SOURCE_NOT_PUBLIC",
     "skillPath": "pdf/SKILL.md"
   },
   {
     "name": "pentest-ctf-forensics",
     "source": "local-simplified-import",
-    "sourceUrl": "I:\\公众号：小谢取证-skills\\skills",
+    "sourceUrl": "LOCAL_SOURCE_NOT_PUBLIC",
     "skillPath": "pentest-ctf-forensics/SKILL.md"
   },
   {
-    "name": "pptx",
-    "source": "local-simplified-import",
-    "sourceUrl": "I:\\公众号：小谢取证-skills\\skills",
-    "skillPath": "pptx/SKILL.md"
+    "name": "performing-cloud-forensics-investigation",
+    "source": "copied-from-local",
+    "sourceUrl": "NOT_IN_LOCKFILE",
+    "skillPath": "performing-cloud-forensics-investigation/SKILL.md"
   },
   {
-    "name": "protocol-reverse-engineering",
-    "source": "local-simplified-import",
-    "sourceUrl": "I:\\公众号：小谢取证-skills\\skills",
-    "skillPath": "protocol-reverse-engineering/SKILL.md"
+    "name": "performing-cloud-forensics-with-aws-cloudtrail",
+    "source": "copied-from-local",
+    "sourceUrl": "NOT_IN_LOCKFILE",
+    "skillPath": "performing-cloud-forensics-with-aws-cloudtrail/SKILL.md"
   },
   {
-    "name": "railway-database",
-    "source": "local-simplified-import",
-    "sourceUrl": "I:\\公众号：小谢取证-skills\\skills",
-    "skillPath": "railway-database/SKILL.md"
+    "name": "performing-cloud-log-forensics-with-athena",
+    "source": "copied-from-local",
+    "sourceUrl": "NOT_IN_LOCKFILE",
+    "skillPath": "performing-cloud-log-forensics-with-athena/SKILL.md"
   },
   {
-    "name": "receiving-code-review",
-    "source": "local-simplified-import",
-    "sourceUrl": "I:\\公众号：小谢取证-skills\\skills",
-    "skillPath": "receiving-code-review/SKILL.md"
+    "name": "performing-cloud-native-forensics-with-falco",
+    "source": "copied-from-local",
+    "sourceUrl": "NOT_IN_LOCKFILE",
+    "skillPath": "performing-cloud-native-forensics-with-falco/SKILL.md"
   },
   {
-    "name": "renqing-adviser",
-    "source": "local-simplified-import",
-    "sourceUrl": "I:\\公众号：小谢取证-skills\\skills",
-    "skillPath": "renqing-adviser/SKILL.md"
+    "name": "performing-cloud-storage-forensic-acquisition",
+    "source": "copied-from-local",
+    "sourceUrl": "NOT_IN_LOCKFILE",
+    "skillPath": "performing-cloud-storage-forensic-acquisition/SKILL.md"
   },
   {
-    "name": "requesting-code-review",
-    "source": "local-simplified-import",
-    "sourceUrl": "I:\\公众号：小谢取证-skills\\skills",
-    "skillPath": "requesting-code-review/SKILL.md"
+    "name": "performing-disk-forensics-investigation",
+    "source": "copied-from-local",
+    "sourceUrl": "NOT_IN_LOCKFILE",
+    "skillPath": "performing-disk-forensics-investigation/SKILL.md"
   },
   {
-    "name": "rev-dex-dumper",
-    "source": "local-simplified-import",
-    "sourceUrl": "I:\\公众号：小谢取证-skills\\skills",
-    "skillPath": "rev-dex-dumper/SKILL.md"
+    "name": "performing-endpoint-forensics-investigation",
+    "source": "copied-from-local",
+    "sourceUrl": "NOT_IN_LOCKFILE",
+    "skillPath": "performing-endpoint-forensics-investigation/SKILL.md"
   },
   {
-    "name": "rev-frida",
-    "source": "local-simplified-import",
-    "sourceUrl": "I:\\公众号：小谢取证-skills\\skills",
-    "skillPath": "rev-frida/SKILL.md"
+    "name": "performing-file-carving-with-foremost",
+    "source": "copied-from-local",
+    "sourceUrl": "NOT_IN_LOCKFILE",
+    "skillPath": "performing-file-carving-with-foremost/SKILL.md"
   },
   {
-    "name": "rev-idapython",
-    "source": "local-simplified-import",
-    "sourceUrl": "I:\\公众号：小谢取证-skills\\skills",
-    "skillPath": "rev-idapython/SKILL.md"
+    "name": "performing-firmware-extraction-with-binwalk",
+    "source": "copied-from-local",
+    "sourceUrl": "NOT_IN_LOCKFILE",
+    "skillPath": "performing-firmware-extraction-with-binwalk/SKILL.md"
   },
   {
-    "name": "rev-struct",
-    "source": "local-simplified-import",
-    "sourceUrl": "I:\\公众号：小谢取证-skills\\skills",
-    "skillPath": "rev-struct/SKILL.md"
+    "name": "performing-firmware-malware-analysis",
+    "source": "copied-from-local",
+    "sourceUrl": "NOT_IN_LOCKFILE",
+    "skillPath": "performing-firmware-malware-analysis/SKILL.md"
   },
   {
-    "name": "rev-symbol",
-    "source": "local-simplified-import",
-    "sourceUrl": "I:\\公众号：小谢取证-skills\\skills",
-    "skillPath": "rev-symbol/SKILL.md"
+    "name": "performing-linux-log-forensics-investigation",
+    "source": "copied-from-local",
+    "sourceUrl": "NOT_IN_LOCKFILE",
+    "skillPath": "performing-linux-log-forensics-investigation/SKILL.md"
   },
   {
-    "name": "rev-u3d-dump",
-    "source": "local-simplified-import",
-    "sourceUrl": "I:\\公众号：小谢取证-skills\\skills",
-    "skillPath": "rev-u3d-dump/SKILL.md"
+    "name": "performing-log-analysis-for-forensic-investigation",
+    "source": "copied-from-local",
+    "sourceUrl": "NOT_IN_LOCKFILE",
+    "skillPath": "performing-log-analysis-for-forensic-investigation/SKILL.md"
   },
   {
-    "name": "rev-unicorn-debug",
-    "source": "local-simplified-import",
-    "sourceUrl": "I:\\公众号：小谢取证-skills\\skills",
-    "skillPath": "rev-unicorn-debug/SKILL.md"
+    "name": "performing-malware-ioc-extraction",
+    "source": "copied-from-local",
+    "sourceUrl": "NOT_IN_LOCKFILE",
+    "skillPath": "performing-malware-ioc-extraction/SKILL.md"
+  },
+  {
+    "name": "performing-malware-persistence-investigation",
+    "source": "copied-from-local",
+    "sourceUrl": "NOT_IN_LOCKFILE",
+    "skillPath": "performing-malware-persistence-investigation/SKILL.md"
+  },
+  {
+    "name": "performing-malware-triage-with-yara",
+    "source": "copied-from-local",
+    "sourceUrl": "NOT_IN_LOCKFILE",
+    "skillPath": "performing-malware-triage-with-yara/SKILL.md"
+  },
+  {
+    "name": "performing-memory-forensics-with-volatility3",
+    "source": "copied-from-local",
+    "sourceUrl": "NOT_IN_LOCKFILE",
+    "skillPath": "performing-memory-forensics-with-volatility3/SKILL.md"
+  },
+  {
+    "name": "performing-memory-forensics-with-volatility3-plugins",
+    "source": "copied-from-local",
+    "sourceUrl": "NOT_IN_LOCKFILE",
+    "skillPath": "performing-memory-forensics-with-volatility3-plugins/SKILL.md"
+  },
+  {
+    "name": "performing-mobile-device-forensics-with-cellebrite",
+    "source": "copied-from-local",
+    "sourceUrl": "NOT_IN_LOCKFILE",
+    "skillPath": "performing-mobile-device-forensics-with-cellebrite/SKILL.md"
+  },
+  {
+    "name": "performing-network-forensics-with-wireshark",
+    "source": "copied-from-local",
+    "sourceUrl": "NOT_IN_LOCKFILE",
+    "skillPath": "performing-network-forensics-with-wireshark/SKILL.md"
+  },
+  {
+    "name": "performing-network-packet-capture-analysis",
+    "source": "copied-from-local",
+    "sourceUrl": "NOT_IN_LOCKFILE",
+    "skillPath": "performing-network-packet-capture-analysis/SKILL.md"
+  },
+  {
+    "name": "performing-network-traffic-analysis-with-tshark",
+    "source": "copied-from-local",
+    "sourceUrl": "NOT_IN_LOCKFILE",
+    "skillPath": "performing-network-traffic-analysis-with-tshark/SKILL.md"
+  },
+  {
+    "name": "performing-network-traffic-analysis-with-zeek",
+    "source": "copied-from-local",
+    "sourceUrl": "NOT_IN_LOCKFILE",
+    "skillPath": "performing-network-traffic-analysis-with-zeek/SKILL.md"
+  },
+  {
+    "name": "performing-sqlite-database-forensics",
+    "source": "copied-from-local",
+    "sourceUrl": "NOT_IN_LOCKFILE",
+    "skillPath": "performing-sqlite-database-forensics/SKILL.md"
+  },
+  {
+    "name": "performing-static-malware-analysis-with-pe-studio",
+    "source": "copied-from-local",
+    "sourceUrl": "NOT_IN_LOCKFILE",
+    "skillPath": "performing-static-malware-analysis-with-pe-studio/SKILL.md"
+  },
+  {
+    "name": "performing-steganography-detection",
+    "source": "copied-from-local",
+    "sourceUrl": "NOT_IN_LOCKFILE",
+    "skillPath": "performing-steganography-detection/SKILL.md"
+  },
+  {
+    "name": "performing-timeline-reconstruction-with-plaso",
+    "source": "copied-from-local",
+    "sourceUrl": "NOT_IN_LOCKFILE",
+    "skillPath": "performing-timeline-reconstruction-with-plaso/SKILL.md"
+  },
+  {
+    "name": "performing-windows-artifact-analysis-with-eric-zimmerman-tools",
+    "source": "copied-from-local",
+    "sourceUrl": "NOT_IN_LOCKFILE",
+    "skillPath": "performing-windows-artifact-analysis-with-eric-zimmerman-tools/SKILL.md"
+  },
+  {
+    "name": "recovering-deleted-files-with-photorec",
+    "source": "copied-from-local",
+    "sourceUrl": "NOT_IN_LOCKFILE",
+    "skillPath": "recovering-deleted-files-with-photorec/SKILL.md"
   },
   {
     "name": "reverse-engineering-android-malware-with-jadx",
     "source": "local-simplified-import",
-    "sourceUrl": "I:\\公众号：小谢取证-skills\\skills",
+    "sourceUrl": "LOCAL_SOURCE_NOT_PUBLIC",
     "skillPath": "reverse-engineering-android-malware-with-jadx/SKILL.md"
   },
   {
-    "name": "server-audit",
-    "source": "local-simplified-import",
-    "sourceUrl": "I:\\公众号：小谢取证-skills\\skills",
-    "skillPath": "server-audit/SKILL.md"
-  },
-  {
-    "name": "skill-creator",
-    "source": "local-simplified-import",
-    "sourceUrl": "I:\\公众号：小谢取证-skills\\skills",
-    "skillPath": "skill-creator/SKILL.md"
-  },
-  {
-    "name": "slack-gif-creator",
-    "source": "local-simplified-import",
-    "sourceUrl": "I:\\公众号：小谢取证-skills\\skills",
-    "skillPath": "slack-gif-creator/SKILL.md"
-  },
-  {
-    "name": "sql-optimization-patterns",
-    "source": "local-simplified-import",
-    "sourceUrl": "I:\\公众号：小谢取证-skills\\skills",
-    "skillPath": "sql-optimization-patterns/SKILL.md"
-  },
-  {
-    "name": "ssh-penetration-testing",
-    "source": "local-simplified-import",
-    "sourceUrl": "I:\\公众号：小谢取证-skills\\skills",
-    "skillPath": "ssh-penetration-testing/SKILL.md"
-  },
-  {
-    "name": "subagent-driven-development",
-    "source": "local-simplified-import",
-    "sourceUrl": "I:\\公众号：小谢取证-skills\\skills",
-    "skillPath": "subagent-driven-development/SKILL.md"
-  },
-  {
-    "name": "systematic-debugging",
-    "source": "local-simplified-import",
-    "sourceUrl": "I:\\公众号：小谢取证-skills\\skills",
-    "skillPath": "systematic-debugging/SKILL.md"
-  },
-  {
-    "name": "test-driven-development",
-    "source": "local-simplified-import",
-    "sourceUrl": "I:\\公众号：小谢取证-skills\\skills",
-    "skillPath": "test-driven-development/SKILL.md"
-  },
-  {
-    "name": "theme-factory",
-    "source": "local-simplified-import",
-    "sourceUrl": "I:\\公众号：小谢取证-skills\\skills",
-    "skillPath": "theme-factory/SKILL.md"
-  },
-  {
-    "name": "using-git-worktrees",
-    "source": "local-simplified-import",
-    "sourceUrl": "I:\\公众号：小谢取证-skills\\skills",
-    "skillPath": "using-git-worktrees/SKILL.md"
-  },
-  {
-    "name": "using-superpowers",
-    "source": "local-simplified-import",
-    "sourceUrl": "I:\\公众号：小谢取证-skills\\skills",
-    "skillPath": "using-superpowers/SKILL.md"
-  },
-  {
-    "name": "verification-before-completion",
-    "source": "local-simplified-import",
-    "sourceUrl": "I:\\公众号：小谢取证-skills\\skills",
-    "skillPath": "verification-before-completion/SKILL.md"
-  },
-  {
-    "name": "weather",
-    "source": "local-simplified-import",
-    "sourceUrl": "I:\\公众号：小谢取证-skills\\skills",
-    "skillPath": "weather/SKILL.md"
-  },
-  {
-    "name": "web-artifacts-builder",
-    "source": "local-simplified-import",
-    "sourceUrl": "I:\\公众号：小谢取证-skills\\skills",
-    "skillPath": "web-artifacts-builder/SKILL.md"
-  },
-  {
-    "name": "webapp-testing",
-    "source": "local-simplified-import",
-    "sourceUrl": "I:\\公众号：小谢取证-skills\\skills",
-    "skillPath": "webapp-testing/SKILL.md"
-  },
-  {
-    "name": "whodb",
-    "source": "local-simplified-import",
-    "sourceUrl": "I:\\公众号：小谢取证-skills\\skills",
-    "skillPath": "whodb/SKILL.md"
+    "name": "reverse-engineering-malware-with-ghidra",
+    "source": "copied-from-local",
+    "sourceUrl": "NOT_IN_LOCKFILE",
+    "skillPath": "reverse-engineering-malware-with-ghidra/SKILL.md"
   },
   {
     "name": "wireshark-analysis",
     "source": "local-simplified-import",
-    "sourceUrl": "I:\\公众号：小谢取证-skills\\skills",
+    "sourceUrl": "LOCAL_SOURCE_NOT_PUBLIC",
     "skillPath": "wireshark-analysis/SKILL.md"
   },
   {
     "name": "wireshark-network-traffic-analysis",
     "source": "local-simplified-import",
-    "sourceUrl": "I:\\公众号：小谢取证-skills\\skills",
+    "sourceUrl": "LOCAL_SOURCE_NOT_PUBLIC",
     "skillPath": "wireshark-network-traffic-analysis/SKILL.md"
-  },
-  {
-    "name": "writing-plans",
-    "source": "local-simplified-import",
-    "sourceUrl": "I:\\公众号：小谢取证-skills\\skills",
-    "skillPath": "writing-plans/SKILL.md"
-  },
-  {
-    "name": "writing-skills",
-    "source": "local-simplified-import",
-    "sourceUrl": "I:\\公众号：小谢取证-skills\\skills",
-    "skillPath": "writing-skills/SKILL.md"
-  },
-  {
-    "name": "xlsx",
-    "source": "local-simplified-import",
-    "sourceUrl": "I:\\公众号：小谢取证-skills\\skills",
-    "skillPath": "xlsx/SKILL.md"
-  },
-  {
-    "name": "wechat-article-extractor",
-    "source": "freestylefly/wechat-article-extractor-skill",
-    "sourceUrl": "https://github.com/freestylefly/wechat-article-extractor-skill.git",
-    "skillPath": "SKILL.md"
-  },
-  {
-    "name": "wechat-article-to-markdown",
-    "source": "jackwener/wechat-article-to-markdown",
-    "sourceUrl": "https://github.com/jackwener/wechat-article-to-markdown.git",
-    "skillPath": "SKILL.md"
   }
 ]

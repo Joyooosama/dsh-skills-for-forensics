@@ -4,6 +4,10 @@ Git
 Node.js LTS and npm
 Python 3.x
 
+# FireEye/Honglian integration
+Authorized FireEye/Honglian forensic software
+The matching `ges` CLI or vendor-provided forensic CLI
+
 # Core forensic tools
 FireEye/Honglian forensic software and licensed components
 Volatility 3

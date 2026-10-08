@@ -1,18 +1,17 @@
 # DSH Forensics Migration
 
-This repository is a private migration bundle for a Windows DSH forensic-analysis workstation. Keep it private unless every included skill has been checked for redistribution rights.
+This repository is a forensic-only migration bundle for a Windows DSH workstation. Keep it private unless every included skill has been checked for redistribution rights.
 
-It contains user-managed skills, DSH plugin source, environment notes, and a bootstrap script. It intentionally does not contain DSH credentials, sessions, caches, evidence images, or vendor-restricted FireEye/Honglian executables.
+It contains digital-forensics skills, environment notes, and a bootstrap script. It intentionally does not contain DSH credentials, sessions, caches, evidence images, unrelated personal skills, or vendor-restricted FireEye/Honglian executables.
 
 ## Layout
 
-- `skills/`: user-managed skills copied from the source workstation.
-- `plugins/`: DSH plugin source that is safe to migrate.
+- `skills/`: forensic skills copied from the source workstation.
 - `env/`: tool and runtime checklist.
 - `vendor/`: instructions for adding authorized vendor components locally.
 - `bootstrap.ps1`: installs the bundle into the current Windows user profile.
 
-The bundle contains user-managed skills from `.agents\skills`. Runtime/system skills from `.codex\skills` are intentionally not copied; install those with the target application's normal package mechanism.
+The bundle contains only the skills listed in `manifests\forensic-allowlist.txt`. Runtime/system skills from `.codex\skills` and unrelated user skills are intentionally not copied.
 
 ## Basic setup
 
