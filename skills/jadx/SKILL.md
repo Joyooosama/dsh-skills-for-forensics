@@ -19,6 +19,24 @@ Keep the initial response concise and only open bundled references or scripts wh
 - **jadx** (and optionally **jadx-gui**) must be installed
 - Java Runtime Environment (JRE) required
 
+## Windows tool discovery
+
+Before running JADX on Windows, run the bundled preflight script. It checks `PATH`, `JADX_HOME`, common `C:\Tools`, Program Files, Scoop, and Chocolatey locations, then returns the resolved CLI, GUI, and Java paths.
+
+```powershell
+$tool = & "$env:USERPROFILE\.agents\skills\jadx\scripts\find-jadx.ps1" -Json | ConvertFrom-Json
+if (-not $tool.found) {
+    throw 'JADX CLI was not found. Install JADX or set JADX_HOME.'
+}
+if (-not $tool.java) {
+    throw 'Java was not found. Install a JRE/JDK and retry.'
+}
+$jadx = $tool.cli
+$jadxGui = $tool.gui
+```
+
+Use `$jadx` and `$jadxGui` instead of assuming that `jadx` is already in `PATH`. If the script returns `found: false`, do not guess a path.
+
 ## Available sections
 
 - Jadx - Android APK Decompiler
